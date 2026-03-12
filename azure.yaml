@@ -1,0 +1,15 @@
+name: zava-storefront
+metadata:
+  template: azd-init
+
+infra:
+  provider: terraform
+  path: ./infra
+
+services:
+  web:
+    project: ./src
+    language: dotnet
+    host: appservice
+    docker:
+      path: ./src/Dockerfile

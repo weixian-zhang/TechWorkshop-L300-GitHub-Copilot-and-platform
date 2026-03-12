@@ -1,0 +1,9 @@
+.git
+bin
+obj
+.vs
+.vscode
+*.user
+*.suo
+appsettings.Development.json
+.azure
