@@ -11,7 +11,7 @@ on:
 
 env:
   REGISTRY: ${{ vars.AZURE_CONTAINER_REGISTRY_NAME }}.azurecr.io
-  IMAGE_NAME: simplestore
+  IMAGE_NAME: zava-storefront/web
   APP_NAME: ${{ vars.AZURE_APP_SERVICE_NAME }}
 
 jobs:
